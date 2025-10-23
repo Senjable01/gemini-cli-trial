@@ -37,7 +37,7 @@ section {
     border-left: 3px solid #3498db;
 }
 
-h2 {
+h2, h3 {
     color: #3498db;
     font-weight: 400;
     border-bottom: 1px solid #3498db;
@@ -68,6 +68,15 @@ pre {
 
 code {
     font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 footer {
