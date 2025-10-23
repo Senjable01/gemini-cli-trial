@@ -37,7 +37,7 @@ section {
     border-left: 3px solid #3498db;
 }
 
-h2, h3 {
+h2, h3, h4 {
     color: #3498db;
     font-weight: 400;
     border-bottom: 1px solid #3498db;

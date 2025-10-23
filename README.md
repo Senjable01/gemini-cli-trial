@@ -10,3 +10,4 @@ Gemini CLIの試用 (バイブコーディング)
 | 3 | 使い方、インストール方法のセクションを入れ替えてください。また、インストール方法ではNode.jsが必要なことも触れてください。<br>(その後、index.htmlが対象と指示) |
 | 4 | index.htmlの基本的な使い方の後に、VSCodeで利用する場合の説明も追加してください。ここではGemini CLI Companion拡張機能についても触れてください。 |
 | 5 | 先ほどindex.htmlに追加したGemini CLI Companion拡張機能について、インストール方法・VSCodeと接続する方法も共に記載してください。 |
+| 6 | index.htmlのVSCodeとの接続方法について、Gemini CLIを起動すればコマンドでも接続できたので、それについても記載してください。<br>ide enableコマンドのことです<br>「gemini」コマンドでGemini CLIが立ち上がった後ｍ「ide enable」コマンドで接続するという手順です |
