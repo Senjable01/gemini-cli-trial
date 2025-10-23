@@ -44,18 +44,8 @@
                 <li>「インストール」ボタンをクリックして、拡張機能をインストールします。</li>
             </ol>
             <h3>VSCodeとの接続方法</h3>
-            <p>VSCodeとの接続には、主に2つの方法があります。</p>
-            <h4>コマンドパレットを使用する方法</h4>
-            <ol>
-                <li>VSCodeでコマンドパレットを開きます（<kbd>Ctrl+Shift+P</kbd>または<kbd>Cmd+Shift+P</kbd>）。</li>
-                <li>「Gemini: Connect to Gemini CLI」を検索して実行します。</li>
-                <li>Gemini CLIが実行されているターミナルと同じディレクトリでVSCodeを開いていることを確認してください。</li>
-            </ol>
-            <h4>Gemini CLI内でコマンドを使用する方法</h4>
-            <ol>
-                <li>ターミナルで<code>gemini</code>コマンドを実行し、Gemini CLIを起動します。</li>
-                <li>Gemini CLIが起動したら、<code>ide enable</code>コマンドを実行します。</li>
-            </ol>
+            <p>VSCodeのターミナルで以下のコマンドを実行することで、Gemini CLIとVSCodeを接続できます。</p>
+            <pre><code>gemini ide enable</code></pre>
             <h3>主な機能</h3>
             <ul>
                 <li>CLIで実行したコマンドの履歴表示</li>
